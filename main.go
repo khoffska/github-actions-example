@@ -12,5 +12,5 @@ func main() {
 		log.Fatalf("expected 1 arg; got %v", n)
 	}
 	greeting := flag.Arg(0)
-	fmt.Printf("Hello, %s!\n", greeting)
+	fmt.Printf("Hello how are you, %s!\n", greeting)
 }
